@@ -24,7 +24,7 @@ markdown: kramdown
 remote_theme: pmarsceill/just-the-docs
 color_scheme: headspring
 # Just the Docs Settings
-logo: https://headspring.com/wp-content/uploads/2020/03/Headspring-Logo-Primary.png
+logo: assets/images/Headspring-Logo-Primary.png
 search_enabled: true
 aux_links:
   "Headspring Labs":
