@@ -22,7 +22,7 @@ github_username:  HeadspringLabs
 # Build settings
 markdown: kramdown
 remote_theme: pmarsceill/just-the-docs
-color_scheme: headspring
+color_scheme: dark
 # Just the Docs Settings
 logo: assets/images/Headspring-Logo-Primary.png
 search_enabled: true
