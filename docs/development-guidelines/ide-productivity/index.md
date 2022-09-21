@@ -65,8 +65,8 @@ The guide below breaks down some of the most useful shortcuts in to three groups
 {: .text-yellow-300 }
 One of the best opportunities for practicing shortcuts is refactoring code. If you haven’t read them, the following are recommended books on the subject.
 
-![Refactoring](/assets/images/ide-productivity/RefactoringBookCover.jpg)
-![Working Effectively With Legacy Code](/assets/images/ide-productivity/WorkingEffectivelyWithLegacyCodeBookCover.jpg )
+![Refactoring by Martin Fowler](../../assets/images/ide-productivity/RefactoringBookCover.jpg)
+![Working Effectively With Legacy Code by Michael Feathers](../../assets/images/ide-productivity/WorkingEffectivelyWithLegacyCodeBookCover.jpg)
 
 ## Learning Guide
 
