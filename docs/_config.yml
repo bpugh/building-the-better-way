@@ -17,7 +17,7 @@ title: Building the Better Way
 baseurl: "/better-way" # the subpath of your site, e.g. /blog
 url: "https://www.brandonpugh.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: headspring
-github_username:  HeadspringLabs
+github_username: bpugh
 
 # Build settings
 markdown: kramdown
@@ -27,10 +27,10 @@ color_scheme: dark
 logo: assets/images/Headspring-Logo-Primary.png
 search_enabled: true
 aux_links:
-  "Headspring Labs":
-    - "//github.com/HeadspringLabs"
+  "Github":
+    - "https://github.com/bpugh/building-the-better-way"
 heading_anchors: true
-footer_content: "<a rel=\"license\" href=\"http://creativecommons.org/licenses/by-sa/4.0/\"><img alt=\"Creative Commons License\" style=\"border-width:0\" src=\"https://i.creativecommons.org/l/by-sa/4.0/80x15.png\" /></a><br />This work is licensed under a <a rel=\"license\" href=\"http://creativecommons.org/licenses/by-sa/4.0/\">Creative Commons Attribution-ShareAlike 4.0 International License</a>. Copyright &copy; 2020 Headspring."
+footer_content: "<a rel=\"license\" href=\"http://creativecommons.org/licenses/by-sa/4.0/\"><img alt=\"Creative Commons License\" style=\"border-width:0\" src=\"https://i.creativecommons.org/l/by-sa/4.0/80x15.png\" /></a><br />This work is licensed under a <a rel=\"license\" href=\"http://creativecommons.org/licenses/by-sa/4.0/\">Creative Commons Attribution-ShareAlike 4.0 International License</a>. Copyright &copy; 2022 Headspring."
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
