@@ -502,8 +502,7 @@ In this strategy, a transaction is set up to start at the beginning of each test
 {: .text-red-300 }
 While [Respawn](https://github.com/jbogard/respawn) is a great tool for giving you a clean slate between each set of tests, it can lead to slow test runs with even a modest number of tests as it generates extra queries each time the database is respawned.  Per the Respawn documentation
 
-Respawn examines the SQL metadata intelligently to build a deterministic order of tables to delete based on foreign key relationships between tables. It navigates these relationships to build a DELETE script starting with the tables with no relationships and moving inwards until all tables are accounted for.
-{: .fs-3 .bg-grey-lt-000 .p-2 .fw-500}
+> Respawn examines the SQL metadata intelligently to build a deterministic order of tables to delete based on foreign key relationships between tables. It navigates these relationships to build a DELETE script starting with the tables with no relationships and moving inwards until all tables are accounted for.
 
 It can be difficult to move **away** from Respawn, since it leads developers to write tests that make lots of assumptions about the database being largely empty at the start of each test case. If you’re going to use it, consider running it only once on test suite startup. Doing so motivates test authors to avoid making assumptions about database state, since other tests in the suite may be saving arbitrary records of their own throughout the run. Running only once on test suite startup also assists the developer during debugging, by omitting data left over from previous test suite runs.
 
