@@ -1,12 +1,13 @@
 # The Better Way
 
-A port of Headspring's "Better Way" documentation site.
+This is an archive of Headspring's "Better Way" documentation site built with Jekyll.
 
-To run locally:
+It used to be hosted at https://betterway.headspring.com but is now preserved at https://www.brandonpugh.com/better-way/
+
+To run locally in docker:
 
 ``` bash
 cd docs/
+docker-compose build
 docker-compose up
 ```
-
-If it complains about missing gems then running `docker-compose run jekyll bundle install` might fix it.
