@@ -8,6 +8,8 @@ ENV PAGES_REPO_NWO bpugh/building-the-better-way
 WORKDIR /usr/src/app
 
 COPY Gemfile ./
+COPY Gemfile.lock ./
+RUN chmod a+w Gemfile.lock
 RUN gem install bundler && bundle install
 
 EXPOSE 4000
